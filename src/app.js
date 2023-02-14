@@ -6,7 +6,7 @@
 // import "./assets/img/4geeks.ico";
 
 
-let cardFamilys = 
+let cardFamilys = [`♦`,`♥`,`♠`,`♣`],
 let cardValues =  ["A",2,3,4,5,6,7,8,9,10,"J","Q","K"];
 
 let $ = element => document.querySelector(element);
