@@ -1,15 +1,56 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 
-.cardBody{
+.card{
     width: 200px;
     height: 300px;
 }
 
-#familyBot{
-    -moz-transform: rotate(180deg);
--webkit-transform: rotate(180deg);
--o-transform: rotate(180deg);
--ms-transform: rotate(180deg);
-transform: rotate(180deg);
+#cardBody{
+    width: 170px;
+    height: 300px;
 }
+
+#familyBot, .rotate180{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+/* CARTAS BODY */
+.figureCard{
+    font-size: 120px;
+}
+
+.twoCard{
+    margin-block: auto;
+    font-size: 90px;
+}
+
+#familyTop div, #familyBot  div{
+    font-size: 40px;
+    width: 30px;
+}
+.threeCard{
+    margin-block: auto;
+    font-size: 60px;
+}
+
+.fourCard, .fiveCard, .sixCard, .sevenCard, .eightCard{
+    margin-block:auto;
+    font-size: 40px;
+}
+
+.nineCard, .tenCard{
+    margin-block:auto;
+    font-size: 30px;
+}
+
+
+.fourCard div,.fiveCard div, .sixCard div, .sevenCard div, .eightCard div, .nineCard div, .tenCard div{
+    margin-inline: auto;
+}
+
