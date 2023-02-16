@@ -38,9 +38,9 @@ export let AllCards ={
 
     cardBodies:{
         figure:function(cardFamily, cardValue){
-            document.getElementById("familyTop").innerHTML= `<div class="text-start h1">${cardFamily}${cardValue}</div>`;
+            document.getElementById("familyTop").innerHTML= `<div class="text-start figure h1">${cardFamily}${cardValue}</div>`;
             document.getElementById("cardBody").innerHTML= `<div class="figureCard m-auto">${cardValue == "A"? cardFamily:cardValue}</div>`;
-            document.getElementById("familyBot").innerHTML= `<div class="text-start h1">${cardFamily}${cardValue}</div>`;
+            document.getElementById("familyBot").innerHTML= `<div class="text-start figure h1">${cardFamily}${cardValue}</div>`;
         },
         two:function(cardValue){
             document.getElementById("familyTop").innerHTML= `<div class="text-start h1">${cardValue}2</div>`;
