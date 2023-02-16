@@ -13,13 +13,19 @@ let $ = element => document.querySelector(element);
 
 
 function handleNewCardButton(){
-  AllCards.newCard();
+  let element = document.createElement('div');
+  $('#randomCardDiv').append(AllCards.newCard(element))
+}
+
+function handleShuffleDeck(){
+  $('#randomCardDiv').innerHTML = ""
+  AllCards.shuffleDeck();
 }
 
 
 
 
-
 window.onload = function() {
+  $("#shuffleDeck").addEventListener(`click`,handleShuffleDeck);
   $("#getNewCard").addEventListener(`click`,handleNewCardButton);
 };
