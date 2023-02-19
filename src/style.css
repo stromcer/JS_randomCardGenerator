@@ -1,62 +1,67 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-
-.card{
-    width: 200px;
-    height: 300px;
-    padding-inline:0px;
+.card {
+  width: 200px;
+  height: 300px;
+  padding-inline: 0px;
 }
 
-#cardBody{
-    width: 170px;
-    height: 300px;
-    padding-inline:0px;
+#cardBody {
+  width: 170px;
+  height: 300px;
+  padding-inline: 0px;
 }
 
-
-
-#familyBot, .rotate180{
-    -moz-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+#familyBot,
+.rotate180 {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
 
 /* CARTAS BODY */
-.figureCard{
-    font-size: 120px;
-    
+.figureCard {
+  font-size: 120px;
 }
 
-.twoCard{
-    margin-block: auto;
-    font-size: 90px;
+.twoCard {
+  margin-block: auto;
+  font-size: 90px;
 }
 
-#familyTop div, #familyBot  div{
-    font-size: 40px;
-    width: 30px;
-
+#familyTop div,
+#familyBot div {
+  font-size: 40px;
+  width: 30px;
 }
-.threeCard{
-    margin-block: auto;
-    font-size: 60px;
-}
-
-.fourCard, .fiveCard, .sixCard, .sevenCard, .eightCard{
-    margin-block:auto;
-    font-size: 40px;
+.threeCard {
+  margin-block: auto;
+  font-size: 60px;
 }
 
-.nineCard, .tenCard{
-    margin-block:auto;
-    font-size: 30px;
+.fourCard,
+.fiveCard,
+.sixCard,
+.sevenCard,
+.eightCard {
+  margin-block: auto;
+  font-size: 40px;
 }
 
-
-.fourCard div,.fiveCard div, .sixCard div, .sevenCard div, .eightCard div, .nineCard div, .tenCard div{
-    margin-inline: auto;
+.nineCard,
+.tenCard {
+  margin-block: auto;
+  font-size: 30px;
 }
 
+.fourCard div,
+.fiveCard div,
+.sixCard div,
+.sevenCard div,
+.eightCard div,
+.nineCard div,
+.tenCard div {
+  margin-inline: auto;
+}
