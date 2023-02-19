@@ -46,7 +46,6 @@ export let AllCards ={
         }
         let [newCardValue, newCardFamily] = this.deck[0]
         this.deck.shift();
-        // let [newCardValue, newCardFamily] = [this.newValue(),this.newFamily()];
         this.getOutside(element);
         this.cardBodies[newCardValue]? this.cardBodies[newCardValue](newCardFamily, element) : this.cardBodies.figure(newCardFamily,newCardValue, element) ;
         this.getColorCard(newCardFamily, element);
